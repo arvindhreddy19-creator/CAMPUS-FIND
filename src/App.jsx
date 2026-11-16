@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Search, Plus, MapPin, CalendarDays, ArrowRight, PackageSearch, ShieldCheck, HeartHandshake, X, LogIn, LogOut, UserRound, Filter, CheckCircle2, Clock3 } from "lucide-react";
 import { supabase, isSupabaseConfigured } from "./supabase";
 
